@@ -1,4 +1,5 @@
 <resources>
     <string name="app_name">D&amp;D App</string>
-    <string name="random_button1">Press For a Random Thing</string>
+    <string name="periodic_button">Press For Periodic Check</string>
+    <string name="door_space_button">Press For Space Beyond Door</string>
 </resources>
