@@ -32,8 +32,27 @@ public class MainActivity extends AppCompatActivity {
                 randomPeriodic.setText(periodicCheck[d20]);
             }
         });
+
         final TextView randomDoorSpace = findViewById(R.id.spaceDoorResult);
         Button doorSpaceButton = findViewById(R.id.spaceDoorButton);
+        doorSpaceButton.setOnClickListener(new View.OnClickListener()
+        {
+            @Override
+            public void onClick(View v)
+            {
+                String[] periodicCheck = {"Passage Ahead", "Passage Ahead", "Passage Ahead", "Passage Ahead", "Passage 90° right",
+                        "Passage 90° left", "Room", "Room", "Room", "Room",
+                        "Room", "Room", "Room", "Room", "T junction",
+                        "1 square x 1 square empty storage closet", "Hallways with a dead end", "Oddly shaped room", "Oddly shaped room", "Oddly shaped room"};
+                Random rand = new Random();
+                int d20 = rand.nextInt(20);
+                System.out.println(d20 + "***************************");
+                randomDoorSpace.setText(periodicCheck[d20]);
+            }
+        });
+
+        final TextView randomDoorLoc = findViewById(R.id.doorLocResult);
+        Button doorSpaceLoc= findViewById(R.id.spaceDoorButton);
         doorSpaceButton.setOnClickListener(new View.OnClickListener()
         {
             @Override
