@@ -1,6 +1,15 @@
 <resources>
     <string name="app_name">D&amp;D App</string>
-    <string name="periodic_button">Press For Periodic Check</string>
-    <string name="door_space_button">Press For Space Beyond Door</string>
-    <string name="door_loc_button">Press For Door Location</string>
+    <string name="periodic_button">Periodic Check</string>
+    <string name="door_space_button">Space Beyond Door</string>
+    <string name="door_loc_button">Door Location</string>
+    <string name="passage_turns_button">Passage Turns</string>
+    <string name="side_passage_button">Side Passage</string>
+    <string name="special_passage_button">Special Passage</string>
+    <string name="room_size_button">Room Size</string>
+    <string name="oddly_shaped_room_button">Oddly Shaped Room</string>
+    <string name="oddly_shaped_size_button">Oddly Shaped Room Size</string>
+    <string name="room_content_button">Room Contents</string>
+    <string name="number_exits_button">Number of Exits</string>
+    <string name="trap_type_button">Trap Type</string>
 </resources>
